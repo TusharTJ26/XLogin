@@ -21,7 +21,7 @@ function App() {
         <div>Welcome, user!</div>
       ) : (
         <div>
-          {failed ? "Invaild Username or password" : ""}
+          {failed ? "Invalid username or password" : ""}
           <br />
           <form onSubmit={handleSubmit}>
             <label>Username:</label>
