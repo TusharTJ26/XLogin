@@ -34,6 +34,7 @@ function App() {
             <label>Password:</label>
             <input
               required
+              type="password"
               placeholder="password"
               onChange={(e) => setPass(e.target.value)}
             ></input>
